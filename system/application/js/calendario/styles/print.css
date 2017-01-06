@@ -1,0 +1,146 @@
+thead	{
+	display: table-header-group;
+}
+
+tfoot	{
+	display: table-footer-group;
+}
+
+table {
+   border: 0px solid #FFFFFF;
+	border-width: 0px 0px 0px 0px;
+	border-color: White;
+	width: 100%;
+}
+
+hr{
+	width: 100%;
+}
+
+input {
+	color: #000000;
+	border-width: 0px 0px 0px 0px;
+	font-family: arial, helvetica, geneva, sans-serif;
+	background-color: inherit;
+	font-size: small;
+}
+
+select {
+	background: transparent;
+	border-width: 0px 0px 0px 0px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: inherit;
+
+}
+
+.cortar_pagina {
+	page-break-after: always;
+}
+
+.print_ignore {
+    display: none;
+}
+
+.Titulo {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+
+.enlaces {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: smaller;
+	color: #000000;
+	font-size: 8pt;
+	line-height: 18px;	
+}
+
+.tblHeadCommon {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: Black;
+	font-weight: bold;
+	color: White;
+	height: 22;
+	font-size: 12;
+	vertical-align: middle;
+}
+
+.tblCommon {
+	border: 1px solid #F0F8FF;
+	background-color: #FFFFFF;
+	height: 20;
+}
+
+.subTitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.PiedePaginas {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.fecha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: right;
+}
+
+.textoGeneral{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+}
+.textoGeneralRight{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+}
+
+.textoReducido{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #000000;
+	text-decoration: none;
+
+}
+
+.textoReducidoRight{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+}
+
+@page {
+	  size 8.5in 11in; margin: 1cm;
+     counter-increment: pages;
+}
+
+@bottom{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #000000;
+   font-weight: normal;
+   text-align: center;
+   content: "Página " counter(pages);
+}
+

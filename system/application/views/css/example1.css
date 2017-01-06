@@ -1,0 +1,91 @@
+body {
+margin:0;
+padding:0;
+}
+
+p {
+margin:0;
+padding:0;
+}
+
+input {
+margin:0;
+padding:0;
+}
+
+.wrap {
+text-align:center;
+}
+
+
+.wrapmenu {
+background:url(../imagenes/bg_main.jpg);
+width:950px;
+margin:auto;
+text-align:left;
+}
+.dmx {
+    font: 11px tahoma;
+}
+.dmx .item1,
+.dmx .item1:hover,
+.dmx .item1-active,
+.dmx .item1-active:hover {
+    padding: 3px 20px 3px 20px;
+    font: 12px arial;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    position: relative;
+	z-index: 400;
+}
+.dmx .item2,
+.dmx .item2:hover,
+.dmx .item2-active,
+.dmx .item2-active:hover {
+    padding: 3px 8px 4px 8px;
+    font: 11px tahoma;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    z-index: 500;
+}
+.dmx .item2 {
+    background: #f3f0eb;
+}
+.dmx .item2:hover,
+.dmx .item2-active,
+.dmx .item2-active:hover {
+    background: #ffffff;
+}
+.dmx .arrow,
+.dmx .arrow:hover {
+    padding: 3px 16px 4px 8px;
+	
+}
+
+.dmx .item2 img,
+.dmx .item2-active img{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+	left:100px;
+    border: 0;
+}
+.dmx .section {
+    border: 1px solid #b8b4ae;
+    position: absolute;
+    visibility: hidden;
+	z-index:500;
+	background: #f3f0eb;
+	
+}
+
+
+
+* html .dmx td { position: relative; } /* ie 5.0 fix */

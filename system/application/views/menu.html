@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta http-equiv="Content-Language" content="en" /> 
+    <title>DropMenuX - Horizontal - Example 1 - MyGosuMenu</title> 
+    <link rel="stylesheet" type="text/css" href="css/example1.css" /> 
+    <script type="text/javascript" src="js/ie5.js"></script> 
+    <script type="text/javascript" src="js/DropMenuX.js"></script> 
+</head> 
+<body> 
+<div class="wrapmenu">
+    <table cellspacing="0" cellpadding="0" id="menu1" class="dmx"> 
+    <tr> 
+        <td> 
+            <a class="item1" href="javascript:void(0)">Mantenimiento</a> 
+            <div class="section"> 
+                <a class="item2" href="<?php  echo base_url(); ?>index.php/beca.php" title="Becas" target="_self">Becas</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/tipobeca/tipobecaControl" title="Tipos de Becas" target="_self" >Tipos de Becas</a> 
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/requisito/requisitoControl" title="Requisitos" target="_self" >Requisitos</a> 
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/modalidad/modalidadControl" title="Modalidades" target="_self" >Modalidades</a> 
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/carrera" title="Carreras" target="_self" >Carreras</a> 
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/instituto" title="Institutos" target="_self" >Institutos</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/nucleo" title="Nucleos de los Institutos" target="_self" >Nucleos</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/liceo/liceoControl" title="Liceos" target="_self" >Liceos</a>
+				<a class="item2 arrow" href="javascript:void(0)">Materia<img src="imagenes/arrow1.gif" width="10" height="12" alt="" /></a>
+				<div class="section"> 
+                    <a class="item2" href="<?php  echo base_url(); ?>index.php/materia/materiaControl" title="Materias" target="_self">Materias</a> 
+                    <a class="item2" href="<?php  echo base_url(); ?>index.php/estadoMateria/estadoMateriaControl" title="Estados de Materias" target="_self">Estado de Materia</a> 
+                </div> 
+				<a class="item2 arrow" href="javascript:void(0)">Persona<img src="imagenes/arrow1.gif" width="10" height="12" alt="" /></a>
+				<div class="section"> 
+                    <a class="item2" href="<?php  echo base_url(); ?>index.php/persona/personaControl" title="Personas" target="_self">Personas</a> 
+                    <a class="item2" href="<?php  echo base_url(); ?>index.php/estadoPersona/estadoPersonaControl" title="Estados de Persona" target="_self">Estado de Persona</a> 
+                </div> 
+				<a class="item2 arrow" href="javascript:void(0)">Período<img src="imagenes/arrow1.gif" width="10" height="12" alt="" /></a>
+				<div class="section"> 
+                    <a class="item2" href="<?php  echo base_url(); ?>index.php/periodo/PeriodoControl" title="Períodos" target="_self">Períodos</a> 
+                    <a class="item2" href="<?php  echo base_url(); ?>index.php/tipoPeriodo/TipoPeriodoControl" title="Tipos de Períodos" target="_self">Tipos de Períodos</a> 
+                </div> 
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/tipoProcedencia/tipoProcedenciaControl" title="Tipo de Procedencia" target="_self">Tipo de Procedencia</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/tipoVerificacion/tipoVerificacionControl" title="Tipos de Verificación" target="_self">Tipos de Verificación</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/accion/accionControl" title="Acciones" target="_self">Acciones</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/banco/bancoControl" title="Bancos" target="_self">Bancos</a>
+				<a class="item2 arrow" href="javascript:void(0)">Geográfico<img src="imagenes/arrow1.gif" width="10" height="12" alt="" /></a>
+				<div class="section"> 
+                    <a class="item2" href="<?php  echo base_url(); ?>index.php/parroquia/parroquiaControl" title="Parroquias" target="_self">Parroquias</a>
+					<a class="item2" href="<?php  echo base_url(); ?>index.php/municipio/municipioControl" title="Municipios" target="_self">Municipios</a> 					
+                    <a class="item2" href="<?php  echo base_url(); ?>index.php/estado/estadoControl" title="Estados" target="_self">Estados</a>
+					<a class="item2" href="<?php  echo base_url(); ?>index.php/pais/paisControl" title="Países" target="_self">Países</a> 
+                </div>
+        <td> 
+            <a class="item1" href="javascript:void(0)">Operaciones</a> 
+            <div class="section"> 
+             <a class="item2" href="<?php  echo base_url(); ?>index.php/procedencia/procedenciaControl" title="Procedencia" target="_self">Procedencia</a>
+			 <a class="item2" href="<?php  echo base_url(); ?>index.php/aspirante/aspiranteControl" title="Aspirantes" target="_self">Aspirantes</a>
+			 <a class="item2" href="<?php  echo base_url(); ?>index.php/pendienteBeca/pendienteBecaControl" title="Pendientes por Beca" target="_self">Pendientes por Beca</a>
+			 <a class="item2" href="<?php  echo base_url(); ?>index.php/beneficiario/beneficiarioControl" title="Beneficiarios" target="_self">Beneficiarios</a>
+			 <a class="item2" href="<?php  echo base_url(); ?>index.php/sorteo/sorteoControl" title="Sorteos" target="_self">Sorteos</a>
+            </div> 
+        </td> 
+        <td> 
+            <a class="item1" href="javascript:void(0)">Reportes</a> 
+            <div class="section"> 
+                <a class="item2" href="<?php  echo base_url(); ?>index.php/con_madresoltera/index" title="Reporte  Madre Soltera" target="_self">Madre Soltera</a> 
+                <a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_censo/index" title="Reporte Censos" target="_self">Censos</a> 
+                <a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_sorteo/index" title="Reporte Sorteos" target="_self">Sorteos</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_beneficiario/index" title="Reporte Beneficiarios" target="_self">Beneficiarios</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_becaPromedio/index" title="Reporte Beca Promedio" target="_self">Beca Promedio</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_historicoBenef/index" title="Reporte Histórico Beneficiario" target="_self">Histórico Beneficiario</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_nomina_becaBecario/index" title="Reporte Nómina Beca Becario" target="_self">Nómina Beca Becario</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_beca_ayuda/index" title="Nómina Beca Ayuda" target="_self">Nómina Beca Ayuda</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_inst_carreraAsignada/index" title="Reporte de Institutos, Carreras y Asignaturas" target="_self">Institutos, Carreras y Asignaturas</a>
+				<a class="item2" href="<?php  echo base_url(); ?>index.php/con_rep_factura/index" title="Reporte Facturas" target="_self">Facturas</a>
+            </div> 
+        </td> 
+        
+            </div> 
+        </td> 
+    </tr> 
+    </table> 
+ </div>
+    
+ 
+    <script type="text/javascript"> 
+    var dmx = new DropMenuX('menu1');
+    dmx.delay.show = 0;
+    dmx.delay.hide = 400;
+    dmx.position.levelX.left = 2;
+    dmx.init();
+    </script> 
+ 
+</body> 
+</html>

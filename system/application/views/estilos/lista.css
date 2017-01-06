@@ -1,0 +1,103 @@
+/* 
+    Document   : listas.ccs
+    Created on : 20/03/2009, 01:57:19 PM
+    Author     : srodriguez
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.tableacceso td {
+padding-bottom:7px;
+}
+
+.titleacceso {
+font-weight:700;
+text-align:center;
+margin-bottom:20px;
+}
+
+
+.olvidecontrasena {
+font-size:11px;
+text-align:right;
+}
+
+.tableacceso input[type="password"],.tableacceso input[type="text"] {
+width:120px;
+}
+
+root
+{ 
+  display: block;
+}
+
+.celdaTitulo
+{
+  background-image: url(../imagenes/fondoCelda.bmp);
+  color:black;
+  font-family: Geneva, Arial, Helvetica, sans-serif; 
+  font-size:12px;
+  font-weight:bold;
+  vertical-align:middle;
+}
+
+.celdaTituloGrande
+{
+  background-image: url(../imagenes/fondoCelda.bmp);
+  color:black;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  vertical-align:middle;
+}
+
+.celdaTituloTabla
+{
+  background-image: url(../imagenes/fondoCeldaTitulo.bmp);
+  color:black;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  vertical-align:middle;
+  height: 26px;
+}
+
+.celda
+{
+  background-image: url(../imagenes/fondoCelda.bmp);
+  color:black;
+  font-family: Geneva, Arial, Helvetica, sans-serif; font-size:12px;
+  font-weight:bold;
+  height: 20px;
+}
+.celdaContenido
+{
+  color:black;
+  font-family: Geneva, Arial, Helvetica, sans-serif; font-size:12px;
+}
+
+.tope
+{
+	background-image: url(../imagenes/header.png);
+	background-repeat: no-repeat;
+}
+
+.celdaError
+{
+  color:red;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size:12px;
+}
+
+.Titulo
+{
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+

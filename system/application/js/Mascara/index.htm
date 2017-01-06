@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script language="JavaScript1.2" src="./js/masks.js"></script>
+
+	<script language="JavaScript1.2">
+	<!--//
+	function init(){
+		document.frmExample.reset();
+
+		oStringMask = new Mask("(###) ###-####");
+		oStringMask.attach(document.frmExample.string);
+
+		oDateMask = new Mask("mm/dd/yyyy", "date");
+		oDateMask.attach(document.frmExample.date);
+
+		oNumberMask = new Mask("$#,###.00", "number");
+		oNumberMask.attach(document.frmExample.number);
+	}
+	//-->
+	</script>
+</head>
+<body onload="init();">
+<form name="frmExample" method="get" onsubmit="return false;">
+	<p>
+		<b>US Phone Number:</b><br />
+		<input type="text" name="string" value="" /><br />
+	</p>
+
+	<p>
+		<b>US Dollar:</b><br />
+		<input type="text" name="number" value="" /><br />
+	</p>
+
+	<p>
+		<b>US Date:</b><br />
+		<input type="text" name="date" value="" /><br />
+	</p>
+</form>
+</body>
+</html>

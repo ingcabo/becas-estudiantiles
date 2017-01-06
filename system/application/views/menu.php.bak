@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="<?php  echo base_url(); ?>system/application/views/menu/jquery.min.js"></script>
+<script type="text/javascript" src="<?php  echo base_url(); ?>system/application/views/menu/jquerycssmenu.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php  echo base_url(); ?>system/application/views/menu/jquerycssmenu.css" />
+
+</head>
+<body>
+<style>
+      <!--
+      body
+      {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+      }
+      -->
+    </style>
+	
+
+<table align="center" >
+  <tr>
+    <td class="tope" width="950" height="153">
+   
+    
+    <br>
+    
+    
+    <br>
+    
+   
+	<br>
+	
+	
+	
+	 &nbsp;  
+	 &nbsp;  
+
+
+
+    </td>
+  </tr>
+</table>
+
+<div id="myjquerymenu" class="jquerycssmenu">
+<ul>
+<li><a href="#">Mantenimiento</a>
+  <ul>
+  <li><?php echo anchor('accion/accionControl','Acción'); ?></li>
+  <li><?php echo anchor('pais/paisControl','Pais'); ?></li>
+  <li><?php echo anchor('estado/estadoControl','Estado'); ?></li>
+  <li><?php echo anchor('municipio/municipioControl','Municipio'); ?></li>
+  <li><?php echo anchor('parroquia/parroquiaControl','Parroquia'); ?></li>
+  <li><?php echo anchor('periodo/PeriodoControl','Periodos'); ?></li>
+  <li><?php echo anchor('tipoPeriodo/TipoPeriodoControl','Tipos de Periodos'); ?></li>
+  <li><?php echo anchor('tipoProcedencia/tipoProcedenciaControl','Tipos de Procedencia'); ?></li>
+  <li><?php echo anchor('tipoVerificacion/tipoVerificacionControl','Tipos de VerificaciÃ³n'); ?></li>
+  <li><?php echo anchor('persona/personaControl','Personas'); ?></li>
+  <li><?php echo anchor('banco/bancoControl','Bancos'); ?></li>
+  <li><?php echo anchor('materia/materiaControl','Materias'); ?></li>
+  <li><?php echo anchor('estadoMateria/estadoMateriaControl','Estado de Materias'); ?></li>
+  <li><?php echo anchor('estadoPersona/estadoPersonaControl','Estados de Personas'); ?></li>
+  <li><?php echo anchor('modalidad/modalidadControl','Modalidades'); ?></li>
+  <li><?php echo anchor('tipobeca/tipobecaControl','Tipo Beca'); ?></li>
+   <li><?php echo anchor('requisito/requisitoControl','Requisitos'); ?></li>
+     
+  
+  
+  <li><?php echo anchor('liceo/liceoControl','Liceo'); ?></li>
+  <li><?php echo anchor('instituto','Institutos'); ?></li>
+  <li><?php echo anchor('nucleo','Nucleos'); ?></li>
+  <li><?php echo anchor('carrera','Carreras'); ?></li>
+  
+  
+   </ul>
+</li>
+<li><a href="#">Operaciones</a></li>
+  <ul>
+  <li><?php echo anchor('procedencia/procedenciaControl','Procedencia'); ?></li>
+  <li><?php echo anchor('aspirante/aspiranteControl','Aspirantes'); ?></li>
+  <li><?php echo anchor('pendienteBeca/pendienteBecaControl','Pendientes Por Beca'); ?></li>
+  <li><?php echo anchor('beneficiario/beneficiarioControl','Beneficiarios'); ?></li>
+   <li><?php echo anchor('sorteo/sorteoControl','Sorteo'); ?></li>
+  </ul>
+<li><a href="#">Reportes</a>
+  <ul>
+  <li><?php echo anchor('con_madresoltera/index','Reporte  Madre Soltera'); ?></li>
+  <li><?php echo anchor('con_rep_censo/index','Reporte  Censos'); ?></li>
+  <li><?php echo anchor('con_rep_sorteo/index','Reporte Sorteos'); ?></li>
+  <li><?php echo anchor('con_rep_beneficiario/index','Reporte Beneficiarios'); ?></li>
+  <li><?php echo anchor('con_rep_becaPromedio/index','Reporte  Beca Promedio'); ?></li>
+  <li><?php echo anchor('con_rep_historicoBenef/index','Reporte Historico Beneficiario'); ?></li>
+  <li><?php echo anchor('con_rep_nomina_becaBecario/index','Reportes de Nómina Beca Becario'); ?></li>
+  <li><?php echo anchor('con_rep_beca_ayuda/index','Nómina Beca Ayuda'); ?></li>
+  <li><?php echo anchor('con_rep_inst_carreraAsignada/index','Reporte de Institutos, Carreras y Asignaturas'); ?></li>
+   <li><?php echo anchor('con_rep_factura/index','Reporte Facturas'); ?></li>
+ 
+  <li><?php echo anchor('kiba/testexcel','Libreria PHPexcel'); ?></li>
+  </ul>
+</li>
+<li><a href="#">Item 3</a></li>
+<li></li>
+</ul>
+<br style="clear: left" />
+</div>
+
+</body>
+</html>
+      
